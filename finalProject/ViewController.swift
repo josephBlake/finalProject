@@ -51,18 +51,21 @@ class ViewController: UIViewController
         return (convertedHours, convertedMinutes, convertedSeconds)
     }
     
-    func aTime(distance: Int, pace: Int)
+    func aTime(distance: Int, pace: Int) -> Int
     {
         // This is supposed to multiply pace by distance to find time
         var temporaryPace = Double(pace)
-        var answer = pow(temporaryPace,-1)
+        var temporaryDistance = Double(distance)
+        var answer = (pow(temporaryPace,-1) * temporaryDistance)
         var answerTwo = Int(answer)
+        return answerTwo
     }
     
-    func aDistance(time: Int, pace: Int)
+    func aDistance(time: Int, pace: Int) -> Int
     {
         // This is supposed to multiply pace by time to find distance
         var distance = pace * time
+        return distance
     }
     
     func aPace(time: Int, distance: Int) -> Int
