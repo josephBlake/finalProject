@@ -77,17 +77,21 @@ class ViewController: UIViewController
     
     @IBAction func findTime(_ sender: Any)
     {
-        
+        var simplePace = simpleConvertPace()
+        var answer = aTime(distance: Int(mileDistance.text!)!, pace: simplePace)
     }
     
     @IBAction func findDistance(_ sender: Any)
     {
-        
+        var simpleTime = simpleConvertTime()
+        var simplePace = simpleConvertPace()
+        var answer = aDistance(time: simpleTime, pace: simplePace)
     }
     
     @IBAction func findPace(_ sender: Any)
     {
-        
+        var simpleTime = simpleConvertTime()
+        var answer = aPace(time: simpleTime, distance: Int(mileDistance.text!)!)
     }
     
 }
