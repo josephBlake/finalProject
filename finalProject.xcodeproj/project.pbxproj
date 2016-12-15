@@ -14,6 +14,7 @@
 		3F0849721DF5CB01009EE56D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0849701DF5CB01009EE56D /* LaunchScreen.storyboard */; };
 		3F08497D1DF5CB01009EE56D /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08497C1DF5CB01009EE56D /* finalProjectTests.swift */; };
 		3F0849881DF5CB01009EE56D /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0849871DF5CB01009EE56D /* finalProjectUITests.swift */; };
+		3F13962C1DFF092D00505E20 /* ResultClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13962B1DFF092D00505E20 /* ResultClass.swift */; };
 		3F57A9E91DF87079005679E3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57A9E81DF87079005679E3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		3F0849831DF5CB01009EE56D /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0849871DF5CB01009EE56D /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		3F0849891DF5CB01009EE56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F13962B1DFF092D00505E20 /* ResultClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultClass.swift; sourceTree = "<group>"; };
 		3F57A9E81DF87079005679E3 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 			children = (
 				3F0849671DF5CB01009EE56D /* AppDelegate.swift */,
 				3F0849691DF5CB01009EE56D /* ViewController.swift */,
+				3F13962B1DFF092D00505E20 /* ResultClass.swift */,
 				3F08496B1DF5CB01009EE56D /* Main.storyboard */,
 				3F57A9E81DF87079005679E3 /* SecondViewController.swift */,
 				3F08496E1DF5CB01009EE56D /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F57A9E91DF87079005679E3 /* SecondViewController.swift in Sources */,
+				3F13962C1DFF092D00505E20 /* ResultClass.swift in Sources */,
 				3F08496A1DF5CB01009EE56D /* ViewController.swift in Sources */,
 				3F0849681DF5CB01009EE56D /* AppDelegate.swift in Sources */,
 			);
